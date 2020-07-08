@@ -116,3 +116,73 @@
 	letter-spacing: 1px;
 }
 
+
+/* Single Blog Page Styles Start here */
+
+.single{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+}
+
+.single a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.single p{
+	padding: 10px;
+	background-color: orange;
+	font-size: 18px;
+}
+
+.single-blog-wrapper{
+	width: 80%;
+	margin: auto;
+	background-color: #fafafa;
+	padding: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.single-blog-wrapper p{
+	margin-bottom: 10px;
+}
+
+/* Create Article Styles */
+
+.form-group{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.form-group label{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.form-group input{
+	height: 40px;
+	border: 0px;
+	padding-left: 10px;
+}
+
+.form-group textarea{
+	padding-top: 10px;
+	border: 0px;
+	padding-left: 10px;
+}
+
+::placeholder{
+	font-size: 14px;
+}
+
+.form-submit{
+	border: 0px;
+	background-color: orange;
+	color: #fff;
+	padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
