@@ -1,2 +1,3 @@
 # Blogging Application in PHP and MySQL
-Project files till part-5 of the tutorial series
+
+This is the master branch of the repo and contains latest and complete project files.
